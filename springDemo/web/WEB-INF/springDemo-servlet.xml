@@ -34,6 +34,9 @@
     <bean name="indexController"
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
           p:viewName="index" />
-    <bean name="/hello.do" class="springDemo.web.HelloController"/> 
+    <bean name="/hello.do"
+          class="springDemo.web.HelloController"
+          p:viewName="hello" />
+    
 
 </beans>
